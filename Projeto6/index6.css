@@ -1,0 +1,321 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.card::-webkit-scrollbar{
+    width: 0px;
+}
+
+.card::-webkit-scrollbar-thumb{
+    background-color: rgb(161, 241, 241);
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+    transition: all ease-in-out .5s;
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+}
+
+.info-img{
+    width: 190px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.img-card{
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.comprar{
+    width: 300px;
+}
+
+.compre{
+    width: 300px;
+}
+
+.medias{
+    width: 40px;
+    background-color: rgba(255, 255, 100, .5);
+    padding: 2px;
+}
+
+.paga{
+    display: block;
+    width: 80px;
+    margin-left: 1em;
+    margin-top: 1.2em;
+}
+
+.video{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2em;
+margin: 2em;
+background-color: rgba(0, 0, 0, .5);
+backdrop-filter: blur(10px);
+border-radius: 10px;
+}
+
+.info-video{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.info-video h3{
+    color: aliceblue;
+    font-size: 1.8em;
+}
+
+.info-video p{
+    width: 300px;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+
+.vd{
+    width: 700px;
+    height: 400px;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Projeto6/img/body-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-image: url(/Projeto6/img/header-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+    position: relative;
+    z-index: -1;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: aliceblue;
+}
+
+#curiosidades{
+    text-align: center;
+    margin-top: 2.4em;
+    border-bottom: solid rgb(247, 245, 245) 3px;
+    color: aliceblue;
+    margin-inline: 500px;
+    text-transform: uppercase;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    list-style: none;
+    font-weight: 700;
+}
+
+
+ul li a{
+    padding: .9em;
+    text-decoration: none;
+    color: aliceblue;
+    transition: all ease-in-out .3s;
+}
+
+ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: .9em;
+    border-radius: 5px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background-color: transparent;
+    backdrop-filter:blur(10px);
+    margin-inline: 26%;
+    margin-top: 28%;
+    width: 600px;
+    font-weight: 600;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.info p{
+    text-decoration: underline;
+}
+
+.info-corpo{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+
+.botao{
+    padding: .6em;
+    border-radius: 5px;
+    border: solid 1px;
+    background-color: aqua;
+}
+
+
+
+main{
+    height: 700px;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(/Projeto6/img/main-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    width: 400px;
+    height: 520px;
+    background-color: rgba(244, 243, 243, 0.5);
+    max-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+    font-weight: 600;
+    margin-top: 55px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.botao2{
+    padding: .5em;
+    border-radius: 5px;
+    background-color: aqua;
+    color: rgb(12, 1, 1);
+}
+
+.botao2:hover{
+    background-color: green;
+    color: aliceblue;
+}
+
+.btn{
+    margin-top: 45px;
+}
+
+.btb{
+    margin-top: 27px;
+}
+
+.compre2{
+    text-align: center;
+    margin-top: 2.4em;
+    border-bottom: solid rgb(247, 245, 245) 3px;
+    color: aliceblue;
+    margin-inline: 500px;
+    text-transform: uppercase;
+    
+}
+
+section{
+    background-color: rgba(255, 255, 255);
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section p{
+    width: 400px;
+    border-inline: solid 1px;
+    padding: 2em;
+}
+
+span{
+    color: rgb(0, 198, 198);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+footer{
+    background-image: url(/Projeto6/img/back-footer.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-footer h2{
+    color: aqua;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.info-footer p{
+    color: rgba(255, 255, 100, .5);
+    font-weight: 600;
+}
+
+
+.info-footer{
+    margin: 1em;
+    background-color: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(50px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em;
+    border-radius: 10px;
+    gap: 1em;
+    padding-inline: 3em;
+    
+}
+
+.info-footer p{
+    width: 200px;
+
+
+}
+
+.pag{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+
+
